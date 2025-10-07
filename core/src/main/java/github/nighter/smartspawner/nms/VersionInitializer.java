@@ -23,6 +23,7 @@ public class VersionInitializer {
 
     // Supported versions in descending order (newest first)
     private final List<Version> supportedVersions = Arrays.asList(
+            new Version(1, 20, 1, "v1_21"),
             new Version(1, 21, 6, "v1_21_6"),
             new Version(1, 21, 4, "v1_21_4"),
             new Version(1, 21, 0, "v1_21")
